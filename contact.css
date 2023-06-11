@@ -1,0 +1,212 @@
+body{
+    background-color: whitesmoke;
+}
+#bn{
+    min-width: 1227px;
+    height: 30px;
+    background-color: rgb(69, 228, 215);
+    display: flex;
+    flex-direction: row;
+    line-height: 0px;
+    position: relative;
+    bottom: 38px;
+   right: 8px;
+   transition: all 1s;
+   z-index: 10;
+}
+.sign{
+    width: 130px;
+    
+    margin-left: 1095px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#sho{
+    color: black;
+}
+.leave{
+
+    width: 70px;
+      position: absolute;
+    top: 3px;
+    left: 27px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    cursor: pointer;
+  }
+.jo{
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#nav{
+    width: 1227px;
+    height: 45px;
+    background-color: rgb(113, 204, 34);
+    position: fixed;
+    position: relative;
+    right: 8px;
+    bottom: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tlb{
+    width: 92px;
+    height: 72px;
+   position: relative;
+   right: 80px;
+   bottom: 9px;
+   cursor: pointer;
+}
+.arrange{
+    position: relative;
+    bottom: 4px;
+    left: 80px;
+    width: 400px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+cursor: pointer;
+}
+.ani{
+    position: relative;
+    top: 1px;
+   font-size: 17px;
+}
+#ma{
+    position: relative;
+    top: -6px;
+    margin: 23px;
+}
+#ma:hover::before{
+content: "";
+position: absolute;
+left: -9px;
+top: 25px;
+width: 65px;
+height: 4px;
+border-radius: 20px;
+background-color: rgb(118, 255, 129);
+transition: all 5s;
+
+}
+#mach:hover::before{
+    content: "";
+    position: absolute;
+    left: -5px;
+    top: 25px;
+    width: 85px;
+    height: 4px;
+    border-radius: 20px;
+    background-color: rgb(118, 255, 129);
+    transition: all 5s;
+    }
+    #machin:hover::before{
+        content: "";
+        position: absolute;
+        left: -8px;
+        top: 25px;
+        width: 95px;
+        height: 4px;
+        border-radius: 20px;
+        background-color: rgb(118, 255, 129);
+        transition: all 5s;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        #staff{
+            width: 500px;
+            height: 350px;
+            position: relative;
+            left: 700px;
+            bottom: 120px;
+        }
+    #spech{
+        width: 650px;
+        position: relative;
+        bottom: 30px;
+    }
+    #sho{
+        position: relative;
+        top: 130px;
+        left: 20px;
+    }
+    #sor{
+        width: 200px;
+        height: 50px;
+        background-color: rgb(149, 246, 132);
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+        position: relative;
+        bottom: 110px;
+        left: 550px;
+
+    }
+    #sor:hover{
+        background-color: white;
+    }
+    iframe{
+        width:100%;
+        position: relative;
+        
+        bottom: 40px;
+    }
+    .mk{
+        width: 600px;
+    }
+    .chan{
+        color: rgb(182, 182, 182);
+        position: relative;
+        bottom: 15px;
+    }
+    .han{
+        width: 250px;
+        height: 40px;
+        margin: 20px;
+        position: relative;
+        right: 60px;
+    }
+    ::placeholder{
+        position: relative;
+        left: 20px;
+    }
+    .ver{
+        width: 600px;
+        position: relative;
+        left: 670px;
+        bottom: 280px;
+    }
+    .hand{
+width: 550px;
+height: 130px;
+position: relative;
+right: 40px;
+top: 10px;
+    }
+    .hand::placeholder{
+        position: relative;
+        bottom: 40px;
+    }
+    .sen{
+        width: 200px;
+        height: 50px;
+        color: white;
+        background-color: black;
+        position: relative;
+        top: 40px;
+        right: 40px;
+        border: none;
+        cursor: pointer;
+    }
+    .sen:hover{
+        background-color: white;
+        color: black;
+    }

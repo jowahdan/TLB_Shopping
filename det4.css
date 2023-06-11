@@ -1,0 +1,229 @@
+img{
+    cursor: pointer;
+}
+.img{
+    width: 150px;
+    height: 150px;
+    
+}
+body{
+    background-color: whitesmoke;
+}
+#ro{
+    border: 5px solid black;
+    background-color: rgb(202, 199, 192);
+}
+#rot{
+    /* border: 5px solid black;
+    background-color: whitesmoke; */
+    rotate: 90deg;
+}
+#rota{
+    rotate: 270deg;
+}
+.arr{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.ima{
+    position: absolute;
+    bottom: 40px;
+    left: 500px;
+    display: flex;
+    height: 500px;
+}
+.hd{
+    text-align: center;
+    position: relative;
+    left: 30px;
+}
+.star{
+    width: 20px;
+    height: 20px;
+}
+.tac{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    left: 600px;
+}
+.prop{
+    position: relative;
+    bottom: 22px;
+    left: 5px;
+}
+#deg{
+    width: 20px;
+    height: 20px;
+    rotate: 90deg;
+    position: relative;
+    top:6px;
+    left: 15px;
+}
+#chan{
+    position: relative;
+    left: 10px;
+}
+.tagm{
+    position: relative;
+    left: 560px;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+}
+.tam{
+    width: 100px;
+    height: 30px;
+    /* background-color: aqua; */
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 15px;
+}
+.rice{
+    position: relative;
+    bottom: 7px;
+}
+.oml{
+    border: 2px solid black;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: -5px;
+    border-top: none;
+}
+.oml:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.om{
+    text-align: center;
+   position: relative;
+   bottom: 18px;
+   
+}
+#sum{
+    
+  display: none;
+    position: relative;
+    left: 741px;
+    bottom: 60px;
+}
+#bot{
+    position: relative;
+    bottom: 20px;
+}
+.si{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    left: 200px;
+}
+.size{
+    border: 2px solid black;
+}
+.size:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.ma{
+    position: relative;
+    top: 7px;
+}
+.colo{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#f{
+background-color: black;
+}
+#i{
+    background-color: blue;
+    }
+    #r{
+        background-color: orange;
+        }
+        #s{
+            background-color: red;
+            }
+            #t{
+                background-color: wheat;
+                }
+                .han{
+                    width: 350px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    position: relative;
+                    left: 800px;
+                    bottom: 60px;
+                }
+                .or{
+                    position: relative;
+                    bottom: 15px;
+                }
+                .her{
+                    width: 15px;
+                    height: 15px;
+                    position: relative;
+                    left: 50px;
+                    bottom: 50px;
+                }
+                #bar{
+                    rotate: 270deg;
+                    position: relative;
+                    bottom: 70px;
+                    left: 65px;
+                    
+                }
+                #bars{
+                  rotate: 90deg;
+                  
+                }
+                #num{
+                    position: relative;
+                    left: 20px;
+                    top: -15px;
+                    
+                }
+                .jm{
+                    
+                    width: 100px;
+                    height: 50px;
+                   position: relative;
+                   left: 500px;
+                    border: 2px solid black;
+                }
+                button{
+                    width: 250px;
+                    height: 50px;
+                    background-color: black;
+                    color: white;
+                    font-size: 17px;
+                    position: relative;
+                    left: 700px;
+                    bottom: 50px;
+                    border-radius: 5px;
+                    border: none;
+                    cursor: pointer;
+                }
+                button:hover{
+                    background-color: white;
+                    color: black;
+                    border: 3px solid black;
+                }
