@@ -1,0 +1,761 @@
+body{
+    background-color: whitesmoke;
+}
+#bn{
+    width: 1686;
+    height: 30px;
+    background-color: rgb(69, 228, 215);
+    display: flex;
+    flex-direction: row;
+    line-height: 0px;
+    position: relative;
+    bottom: 40px;
+   right: 8px;
+   transition: all 1s;
+   z-index: 10;
+}
+.sign{
+    width: 300px;
+   
+    margin-left: 1500px;
+    margin-top: -6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.leave{
+
+    width: 100px;
+      position: absolute;
+    top: -5px;
+    left: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+.jo{
+    cursor: pointer;
+}
+
+#nav{
+    width: 1686px;
+    height: 60px;
+    background-color: rgb(113, 204, 34);
+    position: fixed;
+    position: relative;
+    right: 8px;
+    bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tlb{
+    width: 120px;
+    height: 100px;
+   position: relative;
+   right: 120px;
+   bottom: 15px;
+   cursor: pointer;
+}
+.arrange{
+    position: relative;
+    bottom: 5px;
+    left: 100px;
+    width: 500px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+cursor: pointer;
+}
+.ani{
+    position: relative;
+   
+}
+#ma{
+    position: relative;
+    top: -5px;
+    margin: 25px;
+}
+#ma:hover::before{
+content: "";
+position: absolute;
+left: -9px;
+top: 30px;
+width: 80px;
+height: 5px;
+border-radius: 20px;
+background-color: rgb(118, 255, 129);
+transition: all 5s;
+
+}
+#mach:hover::before{
+    content: "";
+    position: absolute;
+    left: -9px;
+    top: 30px;
+    width: 110px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: rgb(118, 255, 129);
+    transition: all 5s;
+    }
+    #machin:hover::before{
+        content: "";
+        position: absolute;
+        left: -12px;
+        top: 30px;
+        width: 120px;
+        height: 5px;
+        border-radius: 20px;
+        background-color: rgb(118, 255, 129);
+        transition: all 5s;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .img{
+            width: 30px;
+            height: 30px;
+            position: relative;
+            top: 28px;
+            left: 10px;
+            cursor: pointer;
+         }
+         .prod{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 1600px;
+            height: 90px;
+            margin-top: 50px;
+            margin-bottom: 5px;
+            margin-left: 50px;
+            background-color: rgb(118, 255, 129);
+            
+         }
+         .pro{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 1600px;
+            height: 90px;
+            margin-left: 50px;
+            margin-bottom:5px;
+            background-color: rgb(118, 255, 129);
+            
+         }
+         .pr{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 1600px;
+            height: 90px;
+            margin-left: 50px;
+            margin-bottom:5px;
+            background-color: rgb(118, 255, 129);
+            
+         }
+         .mr{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 1600px;
+            height: 90px;
+            margin-left: 50px;
+            margin-bottom:45px;
+            background-color: rgb(118, 255, 129);
+            
+         }
+         /* .tat{
+              position: relative;
+              top: 100px;
+         }
+         .tot{
+            position: relative;
+         } */
+         .black{
+            background-color: black;
+            cursor: pointer;
+            border: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 7px;
+            position: relative;
+            left: 130px;
+            bottom: 100px;
+            
+        }
+        .blac{
+            background-color: black;
+            cursor: pointer;
+            border: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 7px;
+            position: relative;
+            left: 140px;
+            bottom: 45px;
+            
+        }
+        .blacke{
+            background-color: black;
+            cursor: pointer;
+            border: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 7px;
+            position: relative;
+            left: 130px;
+            bottom: 0px;
+            
+        }
+        .red{
+            background-color: red;
+            cursor: pointer;
+            border: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 7px;
+            position: relative;
+            left: 125px;
+            bottom: 100px;
+        }
+        .re{
+            background-color: red;
+            cursor: pointer;
+            border: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 7px;
+            position: relative;
+            left: 135px;
+            bottom: 45px;
+        }
+        .rede{
+            background-color: red;
+            cursor: pointer;
+            border: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 7px;
+            position: relative;
+            left: 125px;
+            bottom: 0px;
+        }
+        .mauve{
+            background-color: magenta;
+            cursor: pointer;
+            border: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 7px;
+            position: relative;
+            left: 175px;
+            bottom: 100px;
+        }
+        .mauv{
+            background-color: magenta;
+            cursor: pointer;
+            border: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 7px;
+            position: relative;
+            left: 185px;
+            bottom: 45px;
+        }
+        .mauvee{
+            background-color: magenta;
+            cursor: pointer;
+            border: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 7px;
+            position: relative;
+            left: 175px;
+            bottom: 0px;
+        }
+        .green{
+            background-color: rgb(0, 187, 255);
+            cursor: pointer;
+            border: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 7px;
+            position: relative;
+            left: 170px;
+            bottom: 100px;
+        }
+        .gree{
+            background-color: rgb(0, 187, 255);
+            cursor: pointer;
+            border: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 7px;
+            position: relative;
+            left: 180px;
+            bottom: 45px;
+        }
+        .greene{
+            background-color: rgb(0, 187, 255);
+            cursor: pointer;
+            border: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 7px;
+            position: relative;
+            left: 170px;
+            bottom: 0px;
+        }
+        .size{
+            width: 300px;
+            height: 300px;
+            position: relative;
+            bottom: 30px;
+            left: 30px;
+           
+        }
+        .sizee{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            bottom: -15px;
+            left: 75px;
+           
+        }
+        .siz{
+            width: 200px;
+            height: 250px;
+            position: relative;
+            bottom: -5px;
+            left: 85px;
+           
+        }
+        .si{
+            width: 200px;
+            height: 250px;
+            position: relative;
+            bottom: 10px;
+            left: 85px;
+           
+        }
+        .h1{
+            position: relative;
+           bottom: 100px;
+            left: 130px;
+        }
+        .h{
+            position: relative;
+           bottom: 40px;
+            left: 155px;
+        }
+        #gam{
+            
+            width: 886px;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            position: relative;
+            left: 120px;
+            bottom: 95px;
+        }
+        #ga{
+            
+            width: 886px;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            position: relative;
+            left: 120px;
+            bottom: 90px;
+        }
+        #g{
+            width: 886px;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            position: relative;
+            left: 120px;
+            bottom: 90px;
+        }
+        #t{
+            
+            width: 886px;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            position: relative;
+            left: 120px;
+            bottom: 130px;
+        }
+        .h11{
+            position: relative;
+           bottom: 0px;
+            left: 130px;
+        }
+        .h111{
+            position: relative;
+           bottom: 0px;
+            left: 140px;
+        }
+        .h1111{
+            position: relative;
+           bottom: 100px;
+            left: 140px;
+        }
+        .cart{
+            width: 350px;
+            height: 450px;
+            border-radius: 30px;
+            background-color: rgb(18, 162, 95);
+         position: relative;
+         left: 0px;
+         top: 120px;
+        
+        }
+        .carte{
+            width: 350px;
+            height: 450px;
+            border-radius: 30px;
+            background-color: rgb(18, 20, 162);
+         position: relative;
+         left: 100px;
+        top: 700px;
+        }
+        #num{
+            cursor: auto;
+            position: relative;
+            right: 10px;
+        }
+        /* #nume{
+            cursor: pointer;
+            position: relative;
+            right: 10px;
+        } */
+      .imp{
+         position: relative;
+         bottom: 110px;
+         left: -45px;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+         
+         width: 460px;
+
+      }
+      /* #two{
+        margin-bottom: 3000px;
+      } */
+      .im{
+        position: relative;
+        bottom: 60px;
+        left: -45px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        width: 460px;
+
+     }
+      .impe{
+        position: relative;
+        bottom: 10px;
+        left: -45px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* background-color: blue; */
+        width: 460px;
+
+     }
+      #det{
+        cursor: pointer;
+        position: relative;
+        bottom: -20px;
+        right: 10px;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      #detom{
+        cursor: pointer;
+        position: relative;
+        bottom: -20px;
+        right: 10px;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      #detf{
+        cursor: pointer;
+        position: relative;
+        bottom: -20px;
+        right: 10px;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      #deto{
+        cursor: pointer;
+        position: relative;
+        bottom: -20px;
+        right: 10px;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      #dete{
+        cursor: pointer;
+        position: relative;
+        bottom: -20px;
+        right: 10px;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      #detesm{
+        cursor: pointer;
+        position: relative;
+        bottom: -20px;
+        right: 10px;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      #detefi{
+        cursor: pointer;
+        position: relative;
+        bottom: -20px;
+        right: 10px;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      #detor{
+        cursor: pointer;
+        position: relative;
+        bottom: -20px;
+        right: 10px;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      #detes{
+        cursor: pointer;
+        position: relative;
+        bottom: -20px;
+        right: 10px;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      #deter{
+        cursor: pointer;
+        position: relative;
+        bottom: -20px;
+        right: 10px;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      #detem{
+        cursor: pointer;
+        position: relative;
+        bottom: -20px;
+        right: 10px;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      #de{
+        cursor: pointer;
+        position: relative;
+        bottom: -20px;
+        right: 10px;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      .p{
+        position: relative;
+        left: 135px;
+        bottom: 150px;
+       
+        transition: all 2s;
+      }
+      .pm{
+        position: relative;
+        left: 135px;
+        bottom: 100px;
+       
+        transition: all 2s;
+      }
+      .pe{
+        position: relative;
+        left: 135px;
+        bottom: 50px;
+        /* background-color: rgb(131, 18, 18); */
+        transition: all 2s;
+      }
+      #det:hover:before{
+        content: "";
+        position: absolute;
+        left: -5px;
+        top: 45px;
+        width: 120px;
+        height: 5px;
+        background-color: rgb(113, 204, 34);
+      }
+      #detom:hover:before{
+        content: "";
+        position: absolute;
+        left: -5px;
+        top: 45px;
+        width: 120px;
+        height: 5px;
+        background-color: rgb(113, 204, 34);
+      }
+      #detf:hover:before{
+        content: "";
+        position: absolute;
+        left: -5px;
+        top: 45px;
+        width: 120px;
+        height: 5px;
+        background-color: rgb(113, 204, 34);
+      }
+      #deto:hover:before{
+        content: "";
+        position: absolute;
+        left: -5px;
+        top: 45px;
+        width: 120px;
+        height: 5px;
+        background-color: rgb(113, 204, 34);
+      }
+      .dm:hover:before{
+        content: "";
+        position: absolute;
+        left: -5px;
+        top: 45px;
+        width: 120px;
+        height: 5px;
+        background-color: rgb(113, 204, 34);
+      }
+      #dete:hover:before{
+        content: "";
+        position: absolute;
+        left: -5px;
+        top: 45px;
+        width: 120px;
+        height: 5px;
+        background-color: rgb(113, 204, 34);
+      }
+      #detefi:hover:before{
+        content: "";
+        position: absolute;
+        left: -5px;
+        top: 45px;
+        width: 120px;
+        height: 5px;
+        background-color: rgb(113, 204, 34);
+      }
+      #detesm:hover:before{
+        content: "";
+        position: absolute;
+        left: -5px;
+        top: 45px;
+        width: 120px;
+        height: 5px;
+        background-color: rgb(113, 204, 34);
+      }
+      #detor:hover:before{
+        content: "";
+        position: absolute;
+        left: -5px;
+        top: 45px;
+        width: 120px;
+        height: 5px;
+        background-color: rgb(113, 204, 34);
+      }
+      #detes:hover:before{
+        content: "";
+        position: absolute;
+        left: -5px;
+        top: 45px;
+        width: 120px;
+        height: 5px;
+        background-color: rgb(113, 204, 34);
+      }
+      #deter:hover:before{
+        content: "";
+        position: absolute;
+        left: -5px;
+        top: 45px;
+        width: 120px;
+        height: 5px;
+        background-color: rgb(113, 204, 34);
+      }
+      #detem:hover:before{
+        content: "";
+        position: absolute;
+        left: -5px;
+        top: 45px;
+        width: 120px;
+        height: 5px;
+        background-color: rgb(113, 204, 34);
+      }
+      #de:hover:before{
+        content: "";
+        position: absolute;
+        left: -5px;
+        top: 45px;
+        width: 120px;
+        height: 5px;
+        background-color: rgb(113, 204, 34);
+      }
+      
+      .tai{
+position: relative;
+bottom: 110px;
+left: 95px;
+      }
+      .ta{
+        position: relative;
+        bottom: 60px;
+        left: 95px;
+              }
+      /* #two{
+        position: relative;
+        top: 500px;
+      } */
+      .taie{
+        position: relative;
+        bottom: 10px;
+        left: 110px;
+              }
+      .star{
+        width: 30px;
+        height: 30px;
+       
+      }
+      .stare{
+        width: 30px;
+        height: 30px;
+       
+      }
+      .star{
+        cursor: pointer;
+      }
+     
+
+      div#one {
+        overflow: hidden;
+    }
+    div#two {
+        overflow: hidden;
+    }
+    div#thr {
+        overflow: hidden;
+    }
+    div#th {
+        overflow: hidden;
+    }
+    #cur{
+        cursor: pointer;
+    }
+    h4{
+        cursor: pointer;
+    }
+    .sord{
+        cursor: pointer;
+    }
