@@ -1,0 +1,74 @@
+.contain{
+    background-color: rgb(114, 255, 177);
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 17px;
+    margin: 128px auto;
+    }
+    .gam{
+        height: 120px;
+position: relative;
+right: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        position: relative;
+        left: 220px;
+        bottom: 20px;
+    }
+    input{
+        width: 250px;
+        height: 35px;
+        position: relative;
+        bottom: 40px;
+        left: 75px;
+        border-radius: 5px;
+        font-size: 17px;
+    }
+    ::placeholder{
+        position: relative;
+        left: 5px;
+        font-size: 15px;
+    }
+    button{
+        width: 255px;
+        height: 40px;
+        background-color: rgb(42, 165, 144);
+        position: relative;
+        bottom: 25px;
+        left: 175px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    a{
+        position: relative;
+        left: 280px;
+        bottom: 0px;
+        color: black;
+    }
+    hr{
+        width: 500px;
+        height: 0px;
+    position: relative;
+    top: -15px;
+    }
+    #sm{
+        position: relative;
+        left: -105px;
+        top: -10px;
+    }
+    #seen{
+        width: 30px;
+        height: 30px;
+        position: relative;
+    left: 910px;
+    bottom: 353px;
+    cursor: pointer;
+    }

@@ -1,0 +1,489 @@
+body{
+    background-color: whitesmoke;
+}
+#bn{
+    width: 1686px;
+    height: 30px;
+    background-color: rgb(69, 228, 215);
+    display: flex;
+    flex-direction: row;
+    line-height: 0px;
+    position: relative;
+    bottom: 40px;
+   right: 8px;
+   transition: all 1s;
+   z-index: 10;
+}
+.sign{
+    width: 300px;
+   
+    margin-left: 1500px;
+    margin-top: -6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.leave{
+
+  width: 100px;
+    position: absolute;
+  top: -5px;
+  left: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.jo{
+    cursor: pointer;
+    
+}
+
+#nav{
+    width: 1686px;
+    height: 60px;
+    background-color: rgb(113, 204, 34);
+    position: fixed;
+    position: relative;
+    right: 8px;
+    bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tlb{
+    width: 120px;
+    height: 100px;
+   position: relative;
+   right: 120px;
+   bottom: 15px;
+   cursor: pointer;
+}
+.arrange{
+    position: relative;
+    bottom: 5px;
+    left: 100px;
+    width: 500px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+cursor: pointer;
+}
+.ani{
+    position: relative;
+   
+}
+#ma{
+    position: relative;
+    top: 0px;
+    margin: 25px;
+}
+#ma:hover::before{
+content: "";
+position: absolute;
+left: -9px;
+top: 30px;
+width: 80px;
+height: 5px;
+border-radius: 20px;
+background-color: rgb(118, 255, 129);
+transition: all 5s;
+
+}
+#mach:hover::before{
+    content: "";
+    position: absolute;
+    left: -9px;
+    top: 30px;
+    width: 110px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: rgb(118, 255, 129);
+    transition: all 5s;
+    }
+    #machin:hover::before{
+        content: "";
+        position: absolute;
+        left: -12px;
+        top: 30px;
+        width: 120px;
+        height: 5px;
+        border-radius: 20px;
+        background-color: rgb(118, 255, 129);
+        transition: all 5s;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        #shopping{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+       margin-top: 50px;
+        }
+        .cal{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        #con{
+            width: 1000px;
+            height: 300px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin: -400px auto;
+            border-radius: 20px;
+            transition: all 2s;
+        }
+        button{
+            height: 50px;
+            width: 150px;
+            background-color: blueviolet;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 17px;
+            position: relative;
+            left: 770px;
+        }
+        button:hover{
+            background-color: white;
+            border: 2px solid black;
+            
+        }
+        .cart{
+            width: 300px;
+            height: 350px;
+            border-radius: 30px;
+            background-color: rgb(178, 226, 226);
+         position: relative;
+         left: 100px;
+        }
+        .black{
+            background-color: black;
+            cursor: pointer;
+            border: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 7px;
+            position: relative;
+            left: 100px;
+            bottom: 100px;
+            
+        }
+        .red{
+            background-color: red;
+            cursor: pointer;
+            border: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 7px;
+            position: relative;
+            left: 110px;
+            bottom: 100px;
+        }
+        .mauve{
+            background-color: magenta;
+            cursor: pointer;
+            border: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 7px;
+            position: relative;
+            left: 120px;
+            bottom: 100px;
+        }
+        .green{
+            background-color: rgb(0, 187, 255);
+            cursor: pointer;
+            border: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 7px;
+            position: relative;
+            left: 130px;
+            bottom: 100px;
+        }
+        .size{
+            width: 300px;
+            height: 300px;
+            position: relative;
+            bottom: 30px;
+        }
+        .h1{
+            position: relative;
+           bottom: 100px;
+            left: 100px;
+        }
+        #num{
+            cursor: auto;
+        }
+      .imp{
+         position: relative;
+         bottom: 110px;
+         left: -50px;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+         /* background-color: blue; */
+         width: 400px;
+
+      }
+      .ms{
+        width: 1100px;
+        height: 2000px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        /* background-color: blue; */
+        position: relative;
+        left: 200px;
+      }
+      #one{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 20px;
+        left: 50px;
+      }
+      #on{
+        position: relative;
+        top: 5px;
+        left: 105px;
+      }
+      .o{
+        position: relative;
+        top: 105px;
+      }
+      #ma{
+        position: relative;
+        top: -7px;
+      }
+      #two{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 20px;
+        left: 50px;
+      }
+      .mal{
+        position: relative;
+        top: 100px;
+      }
+      #mala{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        left: 30px;
+        top: 0px;
+      }
+      .malak{
+        position: relative;
+        top: 50px;
+      }
+      #tee{
+        position: relative;
+        left: 120px;
+        
+      }
+      #tf{
+        position: relative;
+        left: 120px;
+        
+      }
+      #tfe{
+        position: relative;
+        left: 120px;
+        
+      }
+      #malaka{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        left: 30px;
+        top: -10px;
+      }
+      #bes{
+        position: relative;
+        left: 115px;
+
+      }
+      #bs{
+        position: relative;
+        left: 115px;
+
+      }
+      #bso{
+        position: relative;
+        left: 115px;
+
+      }
+      #malo{
+        width: 190px;
+        height: 190px;
+        position: relative;
+        bottom: -20px;
+        left: 57px;
+      }
+      .fir{
+        position: relative;
+        top: 110px;
+      }
+      #last{
+        position: relative;
+        left: 120px;
+      }
+      #laset{
+        position: relative;
+        left: 120px;
+      }
+      #laseto{
+        position: relative;
+        left: 120px;
+      }
+      .impo{
+        position: relative;
+        bottom: 10px;
+        left: -50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* background-color: blue; */
+        width: 400px;
+      }
+   h4 {
+    cursor: pointer;
+   }
+   .fot{
+    background-color: black;
+    width: 1688px;
+    height: 570px;
+    position: relative;
+    right: 10px;
+    
+    
+   }
+   .card{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    position: relative;
+    right: 5px;
+    cursor: pointer;
+   }
+   .fot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   }
+   .white{
+    color: white;
+   }
+   .fote{
+    width: 400px;
+    /* background-color: aqua; */
+    position: relative;
+    top: 100px;
+    left: 50px;
+   }
+   #col{
+    color: rgb(224, 209, 209);
+   }
+   #cole{
+    color: rgb(224, 209, 209);
+   }
+   #cola{
+    color: rgb(224, 209, 209);
+   }
+   #colea{
+    color: rgb(224, 209, 209);
+   }
+   #colean{
+    color: rgb(224, 209, 209);
+   }
+   #colm{
+    color: rgb(224, 209, 209);
+   }
+   #colma{
+    color: rgb(224, 209, 209);
+   }
+   #colme{
+    color: rgb(224, 209, 209);
+   }
+   #colmea{
+    color: rgb(224, 209, 209);
+   }
+   #blo{
+    color: rgb(224, 209, 209);
+   }
+   .to{
+    position: relative;
+    top: 100px;
+    left: 40px;
+   }
+   .fro{
+    position: relative;
+    top: 100px;
+    left: 40px;
+   }
+   .from{
+    width: 400px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    
+   }
+   #im{
+    width: 400px;
+    height: 70px;
+    border: none;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 20px;
+    font-size: 22px;
+   }
+  
+   #im:focus{
+    outline: none;
+   }
+   ::placeholder{
+    color: rgb(199, 192, 192);
+    font-size: 20px;
+   }
+   .back{
+    width: 403px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+    bottom: 35px;
+    border-radius: 20px;
+   }
+   /* body{
+    background-color: black;
+   } */
+   .email{
+    position: relative;
+    bottom:42px;
+    left: 340px;
+    width: 50px;
+    height: 50px;
+    filter: invert(1);
+   }
+   hr{
+    
+    width: 1500px;
+    background-color: aqua;
+    color: aqua;
+    position: relative;
+    bottom: 120px;
+   }
+   #copy{
+    color: rgb(224, 209, 209);
+    position: relative;
+    bottom: 100px;
+    /* left: 600px; */
+    text-align: center;
+   }
