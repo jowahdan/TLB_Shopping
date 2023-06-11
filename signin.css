@@ -1,0 +1,74 @@
+.contain{
+background-color: rgb(114, 255, 177);
+width: 400px;
+height: 430px;
+display: flex;
+flex-direction: column;
+margin: 128px auto;
+border-radius: 20px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 125px;
+    bottom: 20px;
+}
+input{
+    width: 250px;
+    height: 35px;
+    position: relative;
+    bottom: 40px;
+    left: 75px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+::placeholder{
+    position: relative;
+    left: 5px;
+    font-size: 15px;
+}
+#move{
+    position: relative;
+    top: -25px;
+}
+button{
+    width: 255px;
+    height: 40px;
+    background-color: rgb(42, 165, 144);
+    position: relative;
+    bottom: 25px;
+    left: 75px;
+    cursor: pointer;
+    font-size: 18px;
+}
+a{
+    position: relative;
+    left: 130px;
+    bottom: 10px;
+    color: black;
+}
+hr{
+    width: 300px;
+    height: 0px;
+position: relative;
+top: 0px;
+}
+#up{
+    position: relative;
+    top: 0px;
+    left: -60px;
+}
+#seen{
+    width: 30px;
+    height: 30px;
+    position: relative;
+left: 293px;
+bottom: 59px;
+cursor: pointer;
+}
+.cs{
+    position: relative;
+    top: 0px;
+    left: 185px;
+}
